@@ -9,7 +9,7 @@
  *
  */
 
-(function($) {
+;(function($) {
 
     $.fn.typeWriter = function(options) {
         var opts = $.extend( {}, $.fn.typeWriter.defaults, options );
