@@ -1,0 +1,32 @@
+<!Doctype html>
+<html>
+<head>
+    <title>jQuery TypeWriter Demo</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.typewriter.js"></script>
+    <style type="text/css">
+        div#type-effect {
+            font-family: monospace, verdana;
+            font-size: 11px;
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("div#type-effect").typeWriter({
+                typeDelay: 100,
+                typeRowDelay: 500
+            });
+        });
+    </script>
+</head>
+<body>
+
+<div id="type-effect">
+    this is the first line
+    second line comes right after
+    third line is also here
+    the end
+</div>
+
+</body>
+</html>
